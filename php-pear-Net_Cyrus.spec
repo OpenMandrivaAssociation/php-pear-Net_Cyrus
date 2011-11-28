@@ -57,6 +57,6 @@ fi
 
 %files
 %defattr(-,root,root)
-%doc %{upstream_name}-%{version}/test_cyrus.php
+%doc %{upstream_name}-%{version}/tests/test_cyrus.php
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
