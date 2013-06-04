@@ -1,2 +1,4 @@
+removed_sources:
+  Net_Cyrus-0.3.1.tar.bz2: 9e8077728c2593a069a4ae2c78244831b2a0f22e
 sources:
-  "Net_Cyrus-0.3.1.tar.bz2": 9e8077728c2593a069a4ae2c78244831b2a0f22e
+  Net_Cyrus-0.3.2.tgz: 86ce516684c63affd24df8d43fa3801626c9e18b

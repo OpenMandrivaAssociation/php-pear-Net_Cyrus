@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.3.1
-Release:	17
+Version:	0.3.2
+Release:	1
 Summary:	An API for the administration of Cyrus IMAP servers
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Net_Cyrus/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/Net_Cyrus-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -41,7 +41,8 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%doc %{upstream_name}-%{version}/test_cyrus.php
+%defattr(-,root,root)
+%doc %{upstream_name}-%{version}/tests
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
 
@@ -114,4 +115,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.3.1-1mdk
 - initial Mandriva package (PLD import)
+
 
