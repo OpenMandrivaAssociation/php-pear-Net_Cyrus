@@ -41,7 +41,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%doc %{upstream_name}-%{version}/test_cyrus.php
+%doc %{upstream_name}-%{version}/tests
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
 
