@@ -5,7 +5,7 @@
 Summary:	An API for the administration of Cyrus IMAP servers
 Name:		php-pear-%{modname}
 Version:	0.3.2
-Release:	2
+Release:	3
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Net_Cyrus/
